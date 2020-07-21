@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ivi.ru</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+  </head>
+  <body class="site">
+    <header class="header site-header">
+      <div class="container">
+        <div class="row">
+          <div class="logo-wrapper">
+            <div class="logo">
+              <a href="/" class="ref">
+                <img src="./images/logo.svg" alt="logo" class="img" />
+              </a>
+            </div>
+          </div>
+          <nav class="menu">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a class="menu-ref" href="#">Мой ivi</a>
+              </li>
+              <li class="menu-item has-submenu">
+                <a class="menu-ref" href="#">Фильмы</a>
+                <div class="submenu"></div>
+              </li>
+              <li class="menu-item">
+                <a class="menu-ref" href="#">Сериалы</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-ref" href="#">Мультфильмы</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-ref" href="#">Спорт</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-ref" href="#">ТВ-каналы</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-ref" href="#">Подборки</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-ref" href="#">Подписка</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="user-nav">
+            <div class="search-film">
+              <form action="/search/" class="search-film__form">
+                <input
+                  placeholder="Поиск"
+                  class="search-film__input"
+                  type="search"
+                  name="search-film"
+                  id="search"
+                />
+              </form>
+            </div>
+            <div class="notification">
+              <a class="notification__ref" href="/notification">
+                <i class="notification__icon far fa-bell"></i>
+              </a>
+            </div>
+            <div class="profile">
+              <a class="profile__ref" href="/profile">
+                <img
+                  src="./images/avatar.png"
+                  alt="ivi"
+                  class="profile__avatar"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="slider-promo js-slider-promo">
+      <div class="container slider__container">
+        <div class="slide-list js-slide-list">
+          <div
+            class="slide slide-active js-slide js-slide-active"
+            data-slide-index="1"
+          >
+            <a class="slide__ref" href="#">
+              <img
+                src="./images/slider-promo/slide.jpg"
+                alt="slide"
+                class="slide__img"
+              />
+            </a>
+          </div>
+          <div class="slide js-slide" data-slide-index="2">
+            <a class="slide__ref" href="#">
+              <img
+                src="./images/slider-promo/slide.jpg"
+                alt="slide"
+                class="slide__img"
+              />
+            </a>
+          </div>
+          <div class="slide js-slide" data-slide-index="3">
+            <a class="slide__ref" href="#">
+              <img
+                src="./images/slider-promo/slide.jpg"
+                alt="slide"
+                class="slide__img"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="slider__control js-slider-control">
+          <div class="slider__btn slider__btn-prev js-btn-prev">
+            <a class="slider__btn-ref btn-prev__ref" href="#">
+              <i
+                data-transform-origin="-20px"
+                class="slider__btn-icon slider__btn-prev-icon fas fa-chevron-left"
+              ></i>
+            </a>
+          </div>
+          <div class="slider__btn slider__btn-next js-btn-next">
+            <a class="slider__btn-ref btn-next__ref" href="#">
+              <i
+                data-transform-origin="20px"
+                class="slider__btn-icon slider__btn-next-icon fas fa-chevron-right"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main class="main site-main">
+      <section class="section resume-watch">
+        <div class="container">
+          <header class="section__header resume-watch__header">
+            <a href="">Комедийные мелодрамы</a>
+          </header>
+          <div class="section__content">
+            <div class="gallery">
+              <div class="container">
+                <div class="slide-list js-slide-list">
+                  <div class="slide">
+                    <div class="gallery-item">
+                      <a class="" href="/watch">
+                        <div class="gallery-item__img">
+                          <img
+                            src="./images/resume-watch-gallery/resume-watch-gallery-item.jpg"
+                            alt="resume-watch"
+                          />
+                          <div class="gallery-item__meta">
+                            <span class="gallery-item__meta-rating">
+                              <span class="large-number">10</span>.0
+                            </span>
+                            <span class="gallery-item__meta-tag"
+                              >2014, США фантастика</span
+                            >
+                          </div>
+                        </div>
+                        <div class="gallery-item__text"></div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="gallery-item">
+                      <a class="" href="/watch">
+                        <div class="gallery-item__img">
+                          <img
+                            src="./images/resume-watch-gallery/resume-watch-gallery-item.jpg"
+                            alt="resume-watch"
+                          />
+                        </div>
+                        <div class="gallery-item__text"></div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="gallery-item">
+                      <a class="" href="/watch">
+                        <div class="gallery-item__img">
+                          <img
+                            src="./images/resume-watch-gallery/resume-watch-gallery-item.jpg"
+                            alt="resume-watch"
+                          />
+                        </div>
+                        <div class="gallery-item__text"></div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__control js-slider-control"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+    <script src="./js/slider-manager.js"></script>
+  </body>
+</html>
